@@ -2,6 +2,50 @@
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background: rgb(66, 134, 134);
+  padding: 15px, 50px;
+}
 .nav {
-  background: rgb(100, 50, 100);
+  display: inline-block;
+  width: 93%;
+  vertical-align: top;
+  margin-top: 2.5%;
+}
+.nav ul {
+  padding-left: 0;
+  text-align: justify;
+}
+.nav .nav_list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 16.6%;
+  margin-left: -16px;
+  text-align: center;
+}
+.nav_list a {
+  text-decoration: none;
+  color: rgb(253, 255, 146);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+#img-logo {
+  width: 6%;
+}
+/* .nav_list li:last-child a { */
+/* color: aqua; */
+
+.nav_list li a[data-type="blog"] {
+  color: red;
+}
+.nav_list a:hover {
+  color: rgb(231, 37, 212);
+}
+section {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
 }
